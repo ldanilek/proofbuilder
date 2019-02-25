@@ -1,4 +1,4 @@
-FROM coqorg/coq:8.8
+FROM coqorg/coq:8.6
 
 RUN sudo apt-get update && sudo apt-get upgrade -y && sudo apt-get install -y libgtksourceview2.0-dev
 
